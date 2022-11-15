@@ -1,0 +1,47 @@
+body {
+    background-image: url(http://eskipaper.com/images/paint-wallpaper-3.jpg)
+
+}
+
+
+
+#title {
+    margin-top:20%;
+    margin-left:40%;
+    margin-top:10%;
+    color:#FF2233;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+
+#center{
+    margin: auto;
+    width: 50%;
+    margin-top:5%;
+    margin-left:40%;
+    color:#0000FF;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.txt-input {
+    padding: 8px !important;
+    border: none !important;
+    border-radius: 3px !important;
+}
+
+.txt-input:focus {
+    border: none !important;
+}
+
+.txt-submit {
+    padding: 8px !important;
+    border: none !important;
+    border-radius: 3px !important;
+}
+
+.user-name {
+    font-family: 'Courier New', Courier, monospace !important;
+    color: #2f0233;
+}

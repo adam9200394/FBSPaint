@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-image:none;
+}
+
+canvas {
+    width: 100%;
+    height: 100%
+}
+
+img{
+    width: 15px;
+    height: 15px;
+
+}
+
+
+#blocker {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#testo{
+    margin-top: 20%;
+}
+
+#timer, #result{
+    color: #0000ff;
+    position:absolute;
+    margin-top: 10%;
+    margin-left:40%;
+    font-size:40px
+}
+
+#points{
+    color: #ffffff;
+    position:absolute;
+
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 20px;
+    width: 500px;
+
+}
+
+.floating-box {
+    float: left;
+    width: 50px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.after-box {
+    clear: left;
+}
+
+
+#instructions {
+
+    width: 100%;
+    height: 100%;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+
+    color: #ffffff;
+    text-align: center;
+
+    cursor: pointer;
+}
